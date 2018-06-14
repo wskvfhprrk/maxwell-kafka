@@ -7,6 +7,7 @@ http://kafka.apache.org/
 **maxwell下载安装：**
 
 http://maxwells-daemon.io
+
 请认真阅读http://maxwells-daemon.io/quickstart/ 参考mysql配置
 
 **建议使用docker技术**
