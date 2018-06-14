@@ -1,8 +1,11 @@
-##maxwell读取mysql日志发送给kafka
+**maxwell读取mysql日志发送给kafka**
 
-####kafka安装：
+**kafka安装：**
+
 http://kafka.apache.org/
-####maxwell下载安装：
+
+**maxwell下载安装：
+
 http://maxwells-daemon.io
 请认真阅读http://maxwells-daemon.io/quickstart/ 参考mysql配置
 
@@ -23,7 +26,9 @@ http://maxwells-daemon.io
     docker run -d --rm zendesk/maxwell bin/maxwell --user=root \
     --password=123456 --host=192.168.22.129 --producer=kafka \
     --kafka.bootstrap.servers=192.168.22.129:9092 --kafka_topic=test
-####项目：
+    
+    
+**项目：
 
     @KafkaListener(topics = "test")
     public void listenT2(ConsumerRecord<?, ?> cr) throws Exception {
