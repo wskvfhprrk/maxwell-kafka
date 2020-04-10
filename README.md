@@ -39,4 +39,5 @@ http://maxwells-daemon.io
     
     注意：topics = "test"修改为maxwell存放的topic名称
     
-
+***现在使用阿里canal***
+https://github.com/alibaba/canal
